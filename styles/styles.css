@@ -1,6 +1,11 @@
 html{
     scroll-behavior: smooth;
     font-family: 'IBM Plex Mono',sans-serif;
+    background-color: black;
+}
+
+button{
+    font-family: 'IBM Plex Mono',sans-serif; 
 }
 
 header{
@@ -9,6 +14,7 @@ header{
     background-image: url(../resources/header_bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 150px;
 }
 
 h1{
@@ -18,6 +24,24 @@ h1{
     color: #1BFF07;
 }
 
+h2{
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 71px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+h4,button{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+}
+
 p{
     font-weight: 400;
     font-size: 20px;
@@ -25,7 +49,7 @@ p{
     color: white;
 }
 
-a,p,h1{
+a,p,h1,h2,h3,h4,button{
     letter-spacing: -0.03em;
 }
 
@@ -80,4 +104,48 @@ nav a:hover{
 
 .header_content h1{
     width: 919px;
+}
+
+.new_projects{
+    color: white;
+}
+
+.new_projects h2{
+    margin-bottom: 40px;
+}
+
+.project_item{
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.project_item:nth-child(2){
+    background-image: url(../resources/realhome_screen.png);
+}
+
+.project_item:nth-child(3){
+    background-image: url(../resources/glass_screen.png);
+}
+
+.project_item:nth-child(4){
+    background-image: url(../resources/fesiyen_screen.png);
+    margin-bottom: 80px;
+}
+
+
+.project_item_text{
+    margin-left: 50px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.new_projects button{
+    padding: 56px 125px;
+    background-color: #1BFF07;
+    border-radius: 10px;
+    cursor: pointer;
 }
