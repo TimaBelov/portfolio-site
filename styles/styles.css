@@ -44,8 +44,8 @@ h4,button{
 
 p{
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 22px;
+    line-height: 28px;
     color: white;
 }
 
@@ -100,6 +100,8 @@ nav a:hover{
 .header_content p{
     width: 430px;
     margin-bottom: 29px;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 .header_content h1{
@@ -153,6 +155,7 @@ nav a:hover{
 
 .my_competencies{
     color: white;
+    margin-bottom: 74px;
 }
 
 .my_competencies h2{
@@ -200,7 +203,26 @@ nav a:hover{
 
 .my_competencies p{
     width: 778px;
-    font-size: 22px;
-    line-height: 28px;
+}
+
+.service_item{
+    margin-bottom: 74px;
+}
+
+.service_item_text{
+    padding-left: 40px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border-radius: 30px;
+    background-color: #191C19;
+}
+
+.service_item_text h2{
+    color: #1BFF07;
+    margin-bottom: 20px;
+}
+
+.service_item_text p{
+    width: 749px;
 }
 
