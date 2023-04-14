@@ -7,25 +7,31 @@
   margin-bottom: 40px;
 }
 
+.projects__link {
+  text-decoration: none;
+  color: white;
+}
+
 .project_item {
   width: 100%;
   height: 550px;
+  border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
-
+  border: 1px solid gray;
   position: relative;
 }
 
-.project_item:nth-child(1) {
-  background-image: url(../resources/realhome_screen.png);
+.projects__link:nth-child(1) .project_item {
+  background-image: url(../resources/metrica-screen.png);
 }
 
-.project_item:nth-child(2) {
-  background-image: url(../resources/glass_screen.png);
+.projects__link:nth-child(2) .project_item {
+  background-image: url(../resources/nothing_ear_screen.png);
 }
 
-.project_item:nth-child(3) {
-  background-image: url(../resources/fesiyen_screen.png);
+.projects__link:nth-child(3) .project_item {
+  background-image: url(../resources/whitespace_screen.png);
   margin-bottom: 80px;
 }
 
@@ -33,6 +39,7 @@
   margin-left: 50px;
   position: absolute;
   bottom: 50px;
+  text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
 }
 
 .new_projects button {
