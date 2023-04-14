@@ -1,0 +1,49 @@
+.logo p {
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: -0.11em;
+  color: #1bff07;
+
+  padding: 10px 12px;
+  border-radius: 100px;
+  background-color: black;
+  width: 130px;
+
+  user-select: none;
+}
+
+.header_panel {
+  padding-top: 33px;
+  display: flex;
+
+  justify-content: space-between;
+  margin-bottom: 252px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+  margin-right: 50px;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav a:hover {
+  color: #1bff07;
+}
+
+.header_content p {
+  width: 430px;
+  margin-bottom: 29px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.header_content h1 {
+  width: 919px;
+}

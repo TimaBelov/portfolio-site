@@ -1,315 +1,66 @@
-html{
-    scroll-behavior: smooth;
-    font-family: 'IBM Plex Mono',sans-serif;
-    background-color: black;
+html {
+  scroll-behavior: smooth;
+  font-family: "IBM Plex Mono", sans-serif;
+  background-color: black;
 }
 
-button{
-    font-family: 'IBM Plex Mono',sans-serif; 
+button {
+  font-family: "IBM Plex Mono", sans-serif;
 }
 
-header{
-    width: 100%;
-    height: 765px;
-    background-image: url(../resources/header_bg1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 150px;
+header {
+  width: 100%;
+  height: 765px;
+  background-image: url(../resources/header_bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 150px;
 }
 
-h1{
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 70px;
-    color: #1BFF07;
+h1 {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  color: #1bff07;
 }
 
-h2{
-    font-weight: 400;
-    font-size: 55px;
-    line-height: 71px;
+h2 {
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 71px;
 }
 
-h3{
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 45px;
+h3 {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
 }
 
-h4,button{
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 39px;
+h4,
+button {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
 }
 
-p{
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    color: white;
+p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: white;
 }
 
-a,p,h1,h2,h3,h4,button{
-    letter-spacing: -0.03em;
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+button {
+  letter-spacing: -0.03em;
 }
 
-.logo p{
-    font-weight: 700;
-    font-size: 42px;
-    letter-spacing: -0.11em;
-    color: #1BFF07;
-
-    padding: 10px 12px;
-    border-radius: 100px;
-    background-color: black;
-    width: 130px;
-
-    user-select: none;
-}
-
-.container{
-    width: 1155px;
-    margin: 0 auto;
-}
-
-.header_panel{
-    padding-top: 33px;
-    display: flex;
-
-    justify-content: space-between;
-    margin-bottom: 252px;
-}
-
-nav a{
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    color: white;
-    margin-right: 50px;
-}
-
-nav a:last-child{
-    margin-right: 0;
-}
-
-nav a:hover{
-    color:#1BFF07;
-}
-
-.header_content p{
-    width: 430px;
-    margin-bottom: 29px;
-    font-size: 20px;
-    line-height: 26px;
-}
-
-.header_content h1{
-    width: 919px;
-}
-
-.new_projects{
-    color: white;
-    margin-bottom: 150px;
-}
-
-.new_projects h2{
-    margin-bottom: 40px;
-}
-
-.project_item{
-    width: 100%;
-    height: 550px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    position: relative;
-}
-
-.project_item:nth-child(2){
-    background-image: url(../resources/realhome_screen.png);
-}
-
-.project_item:nth-child(3){
-    background-image: url(../resources/glass_screen.png);
-}
-
-.project_item:nth-child(4){
-    background-image: url(../resources/fesiyen_screen.png);
-    margin-bottom: 80px;
-}
-
-
-.project_item_text{
-    margin-left: 50px;
-    position: absolute;
-    bottom: 50px;
-}
-
-.new_projects button{
-    padding: 56px 120px;
-    background-color: #1BFF07;
-    border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid #1BFF07;
-}
-
-.new_projects button:hover{
-    background-color: unset;
-    color: #1BFF07;
-}
-
-.my_competencies{
-    color: white;
-    margin-bottom: 74px;
-}
-
-.my_competencies h2{
-    margin-bottom: 48px;
-}
-
-.my_competencies h3{
-    width: 403px;
-}
-
-.competence_item{
-    margin-bottom: 60px;
-}
-
-.competence_item h3{
-    color:#1BFF07;
-    margin-bottom: 15px;
-    width: 1048px;
-}
-
-.competence_item h3::before{
-    content: '';
-    display: block;
-    width: 45px;
-    height: 44px;
-    background-image: url(../resources/html_ico.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-bottom: 20px;
-}
-
-.competence_item:nth-child(3) h3::before{
-    background-image: url(../resources/js_ico.png);
-}
-.competence_item:nth-child(4) h3::before{
-    background-image: url(../resources/mobile_ico.png);
-}
-.competence_item:nth-child(5) h3::before{
-    background-image: url(../resources/framework_ico.png);
-}
-
-.competence_item:nth-child(5){
-    margin-bottom: 150px;
-}
-
-.my_competencies p{
-    width: 778px;
-}
-
-.service_item{
-    margin-bottom: 74px;
-}
-
-.service_item:nth-child(2){
-    margin-bottom: 137px;
-}
-
-.service_item_text{
-    padding-left: 40px;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    border-radius: 30px;
-    background-color: #191C19;
-}
-
-.service_item_text h2{
-    color: #1BFF07;
-    margin-bottom: 20px;
-}
-
-.service_item_text p{
-    width: 749px;
-}
-
-.service_item:last-child{
-    margin-bottom: 150px;
-}
-
-.for_communication{
-    max-width: 1400px; 
-    height: 717px;
-    margin: 0 auto;
-    background-color: #191C19;
-    border-radius: 30px;
-    margin-bottom: 150px;
-}
-
-.communication_container{
-    width: 100%;
-    height: inherit;
-    position: relative;
-}
-
-.communication_container img{
-    position: absolute;
-    right: 0;
-    border-radius: 30px;
-    user-select: none;
-}
-
-.communication_container_text{
-    position: absolute;
-    left: 125px;
-    bottom: 89px;
-}
-
-.communication_container_text h3{
-    line-height: 60px;
-    color: white;
-    margin-bottom: 28px;
-}
-
-.communication_container_text a{
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 60px;
-    color: white;
-    margin-bottom: 20px;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.communication_container_text a:hover{
-    color: #1BFF07;
-}
-
-
-.communication_container_text a:last-child{
-    margin-bottom: 0;
-}
-
-footer{
-    text-align: left;
-    background-color: white;
-    border-radius: 30px 30px 0 0;
-    padding-left: 125px;
-}
-
-footer p:first-child{
-    padding-top: 76px;
-    margin-bottom: 66px;
-    color: black;
-}
-
-footer p:last-child{
-    color: black;
-    opacity: 0.5;
-    padding-bottom: 30px;
+.container {
+  width: 1155px;
+  margin: 0 auto;
 }

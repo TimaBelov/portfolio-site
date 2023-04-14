@@ -1,0 +1,53 @@
+.for_communication {
+  max-width: 1400px;
+  height: 717px;
+  margin: 0 auto;
+  background-color: #191c19;
+  border-radius: 30px;
+  margin-bottom: 150px;
+}
+
+.communication_container {
+  width: 100%;
+  height: inherit;
+  position: relative;
+}
+
+.communication_container img {
+  position: absolute;
+  right: 0;
+  border-radius: 30px;
+  user-select: none;
+}
+
+.communication_container_text {
+  position: absolute;
+  left: 125px;
+  bottom: 89px;
+}
+
+.communication_container_text h3 {
+  line-height: 60px;
+  color: white;
+  margin-bottom: 28px;
+}
+
+.communication_container_text a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: white;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.communication_container_text a:hover {
+  color: #1bff07;
+}
+
+.communication_container_text a:last-child {
+  margin-bottom: 0;
+}

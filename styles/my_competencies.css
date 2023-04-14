@@ -1,0 +1,51 @@
+.my_competencies {
+  color: white;
+  margin-bottom: 74px;
+}
+
+.my_competencies h2 {
+  margin-bottom: 48px;
+}
+
+.my_competencies h3 {
+  width: 403px;
+}
+
+.competence_item {
+  margin-bottom: 60px;
+}
+
+.competence_item h3 {
+  color: #1bff07;
+  margin-bottom: 15px;
+  width: 1048px;
+}
+
+.competence_item h3::before {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 44px;
+  background-image: url(../resources/html_ico.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+
+.competence_item:nth-child(3) h3::before {
+  background-image: url(../resources/js_ico.png);
+}
+.competence_item:nth-child(4) h3::before {
+  background-image: url(../resources/mobile_ico.png);
+}
+.competence_item:nth-child(5) h3::before {
+  background-image: url(../resources/framework_ico.png);
+}
+
+.competence_item:nth-child(5) {
+  margin-bottom: 150px;
+}
+
+.my_competencies p {
+  width: 778px;
+}

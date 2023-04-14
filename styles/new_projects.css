@@ -1,0 +1,49 @@
+.new_projects {
+  color: white;
+  margin-bottom: 150px;
+}
+
+.new_projects h2 {
+  margin-bottom: 40px;
+}
+
+.project_item {
+  width: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.project_item:nth-child(1) {
+  background-image: url(../resources/realhome_screen.png);
+}
+
+.project_item:nth-child(2) {
+  background-image: url(../resources/glass_screen.png);
+}
+
+.project_item:nth-child(3) {
+  background-image: url(../resources/fesiyen_screen.png);
+  margin-bottom: 80px;
+}
+
+.project_item_text {
+  margin-left: 50px;
+  position: absolute;
+  bottom: 50px;
+}
+
+.new_projects button {
+  padding: 56px 120px;
+  background-color: #1bff07;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #1bff07;
+}
+
+.new_projects button:hover {
+  background-color: unset;
+  color: #1bff07;
+}
