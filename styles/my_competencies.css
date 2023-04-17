@@ -1,6 +1,6 @@
 .my_competencies {
   color: white;
-  margin-bottom: 74px;
+  margin-bottom: 80px;
 }
 
 .my_competencies h2 {
@@ -9,16 +9,27 @@
 
 .my_competencies h3 {
   width: 403px;
+  flex-grow: 100;
+}
+
+.competence__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+  column-gap: 10px;
+  margin-bottom: 150px;
 }
 
 .competence_item {
-  margin-bottom: 60px;
+  width: calc(50% - 5px);
+  font-family: inherit;
 }
 
 .competence_item h3 {
   color: #1bff07;
   margin-bottom: 15px;
-  width: 1048px;
+  width: 100%;
 }
 
 .competence_item h3::before {
@@ -32,20 +43,12 @@
   margin-bottom: 20px;
 }
 
-.competence_item:nth-child(3) h3::before {
+.competence_item:nth-child(2) h3::before {
   background-image: url(../resources/js_ico.png);
 }
-.competence_item:nth-child(4) h3::before {
+.competence_item:nth-child(3) h3::before {
   background-image: url(../resources/mobile_ico.png);
 }
-.competence_item:nth-child(5) h3::before {
+.competence_item:nth-child(4) h3::before {
   background-image: url(../resources/framework_ico.png);
-}
-
-.competence_item:nth-child(5) {
-  margin-bottom: 150px;
-}
-
-.my_competencies p {
-  width: 778px;
 }
