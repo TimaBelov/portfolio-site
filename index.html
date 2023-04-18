@@ -29,25 +29,27 @@
             Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
             повышают престиж компании и позволяют выделиться на фоне конкурентов
           </p>
-          <h1 class="header__title">Привет, я Тимофей — фронтенд разработчик и дизайнер сайтов</h1>
+          <h1 class="header__title">
+            Привет, я Тимофей — фронтенд разработчик и дизайнер сайтов
+          </h1>
         </div>
       </section>
     </header>
     <main>
       <section class="container">
         <section class="new_projects" id="portfolio">
-          <h2>Самые свежие проекты</h2>
+          <h2 class="projects__title">Самые свежие проекты</h2>
           <ul>
             <a
               href="https://timabelov.github.io/Metrika/"
               class="projects__link"
               target="_blank"
             >
-              <li class="project_item">
-                <p class="project_item__description">дизайн интерьера</p>
-                <div class="project_item_text">
-                  <h3>Метрика</h3>
-                  <h4>вёрстка, настройка</h4>
+              <li class="project__item">
+                <p class="project__item__classification">дизайн интерьера</p>
+                <div class="project__item__text">
+                  <h3 class="project__item__title">Метрика</h3>
+                  <h4 class="project__item__description">вёрстка, настройка</h4>
                 </div>
               </li>
             </a>
@@ -56,25 +58,29 @@
               class="projects__link"
               target="_blank"
             >
-              <li class="project_item">
-                <p class="project_item__description">презентация продукта</p>
-                <div class="project_item_text">
-                  <h3>Nothing</h3>
-                  <h4>вёртска, настройка</h4>
+              <li class="project__item">
+                <p class="project__item__classification">
+                  презентация продукта
+                </p>
+                <div class="project__item__text">
+                  <h3 class="project__item__title">Nothing</h3>
+                  <h4 class="project__item__description">вёртска, настройка</h4>
                 </div>
               </li>
             </a>
             <a href="" class="projects__link" target="_blank">
-              <li class="project_item">
-                <p class="project_item__description">заказ путешествий</p>
-                <div class="project_item_text">
-                  <h3>TOPTRIP</h3>
-                  <h4>вёрстка</h4>
+              <li class="project__item">
+                <p class="project__item__classification">заказ путешествий</p>
+                <div class="project__item__text">
+                  <h3 class="project__item__title">TOPTRIP</h3>
+                  <h4 class="project__item__description">вёрстка</h4>
                 </div>
               </li>
             </a>
           </ul>
-          <a href=""><button>Смотреть все проекты</button></a>
+          <a href=""
+            ><button class="projects__button">Смотреть все проекты</button></a
+          >
         </section>
         <section class="my_competencies" id="competencies">
           <h2>Мои компетенции</h2>
@@ -128,9 +134,10 @@
           </h3>
         </section>
         <ul class="my_services" id="services">
-          <li class="service_item">
-            <img src="resources/dev_site.png" alt="Скриншот сайта" />
-            <div class="service_item_text">
+          <li class="service__item">
+            <img src="resources/dev_site.png" alt="Скриншот сайта" 
+            class="service__item__image"/>
+            <div class="service__item__text">
               <h2 class="service__item__title">Разработка сайта под ключ</h2>
               <p class="service__item__description">
                 Это создание дизайн веб-сайтов, созданный для удобства
@@ -140,9 +147,10 @@
               </p>
             </div>
           </li>
-          <li class="service_item">
-            <img src="resources/layout_site.png" alt="Скриншот сайта" />
-            <div class="service_item_text">
+          <li class="service__item">
+            <img src="resources/layout_site.png" alt="Скриншот сайта" 
+            class="service__item__image"/>
+            <div class="service__item__text">
               <h2 class="service__item__title">Верстка сайтов</h2>
               <p class="service__item__description">
                 Это процесс создания HTML-документов и применения к ним стилей
@@ -151,9 +159,11 @@
               </p>
             </div>
           </li>
-          <li class="service_item">
-            <img src="resources/dev_mobile.png" alt="Скриншот сайта" />
-            <div class="service_item_text">
+          <li class="service__item">
+            
+            <img src="resources/dev_mobile.png" alt="Скриншот сайта" 
+            class="service__item__image"/>
+            <div class="service__item__text">
               <h2 class="service__item__title">
                 Разработка мобильного интерфейса
               </h2>
@@ -169,11 +179,15 @@
       </section>
       <section class="for_communication" id="contacts">
         <div class="communication__container">
-          <img
-            src="resources/programmer.png"
-            alt="Изображение программиста"
-            class="communication__image"
-          />
+          <picture>
+            <source media="(max-width:500px)" srcset="resources/programmer-tablet.png">
+            <source media="(max-width:1199px)" srcset="resources/programmer-tablet.png">
+            <img
+              src="resources/programmer.png"
+              alt="Изображение программиста"
+              class="communication__image"
+            />
+          </picture>
           <div class="communication__feedback">
             <h3 class="communication__feedback__title">
               Для связи со мной заполните простую форму

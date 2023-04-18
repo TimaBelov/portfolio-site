@@ -3,7 +3,7 @@
   margin-bottom: 150px;
 }
 
-.new_projects h2 {
+.projects__title {
   margin-bottom: 40px;
 }
 
@@ -12,7 +12,7 @@
   color: white;
 }
 
-.project_item {
+.project__item {
   width: 100%;
   height: 550px;
   border-radius: 30px;
@@ -21,20 +21,20 @@
   position: relative;
 }
 
-.projects__link:nth-child(1) .project_item {
+.projects__link:nth-child(1) .project__item {
   background-image: url(../resources/metrica.png);
 }
 
-.projects__link:nth-child(2) .project_item {
+.projects__link:nth-child(2) .project__item {
   background-image: url(../resources/nothing_ear.png);
 }
 
-.projects__link:nth-child(3) .project_item {
+.projects__link:nth-child(3) .project__item {
   background-image: url(../resources/toptrip.png);
   margin-bottom: 80px;
 }
 
-.project_item__description {
+.project__item__classification {
   position: absolute;
   top: 50px;
   left: 50px;
@@ -47,21 +47,36 @@
   padding: 10px 20px;
 }
 
-.project_item_text {
+.project__item__text {
   margin-left: 50px;
   position: absolute;
   bottom: 50px;
 }
 
-.new_projects button {
+.projects__button {
   padding: 56px 120px;
   background-color: #1bff07;
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid #1bff07;
+
 }
 
-.new_projects button:hover {
+.projects__button:hover {
   background-color: unset;
   color: #1bff07;
+}
+
+@media (max-width:1199px){
+  .projects__title{
+    margin-bottom: 53px;
+  }
+  .project__item{
+    height: 445px;
+  }
+  .project__item__classification{
+    font-size: 16px;
+    line-height: 21px;
+    padding: 8px 16px;
+  }
 }

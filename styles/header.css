@@ -47,4 +47,18 @@
 
 .header__title {
   width: 919px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  color: #1bff07;
+}
+
+@media (max-width:1199px) {
+  .header__nav{
+    display: none;
+  }
+  .header__title{
+    font-size: 60px;
+    width: 727px;
+  }
 }

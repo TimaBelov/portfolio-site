@@ -24,13 +24,6 @@ header {
   margin-bottom: 150px;
 }
 
-h1 {
-  font-weight: 400;
-  font-size: 80px;
-  line-height: 70px;
-  color: #1bff07;
-}
-
 h2 {
   font-weight: 400;
   font-size: 55px;
@@ -70,4 +63,27 @@ button {
 .container {
   width: 1150px;
   margin: 0 auto;
+}
+
+@media (max-width:1199px){
+  .container{
+    width: 100%;
+    padding: 0 15px;
+  }
+  h2{
+    font-size: 45px;
+    line-height: 58px;
+  }
+  h3{
+    font-size: 28px;
+    line-height: 36px;
+  }
+  h4,button{
+    font-size: 24px;
+    line-height: 31px;
+  }
+  p{
+    font-size: 18px;
+    line-height: 23px;
+  }
 }

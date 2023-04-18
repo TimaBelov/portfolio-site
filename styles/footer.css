@@ -13,7 +13,7 @@
 }
 
 .footer__title{
-  padding-top: 76px;
+  margin-top: 76px;
   margin-bottom: 66px;
   color: black;
 }
@@ -43,4 +43,35 @@
 
 .footer__link:last-child{
   margin-right: 0;
+}
+
+@media (max-width: 1199px) {
+  .footer{
+    padding: 0 40px;
+    border-radius: 20px 20px 0 0;
+  }
+  .footer__title{
+    margin-top: 51px;
+    margin-bottom: 43px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .footer__description,.footer__rights{
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .footer__item__links{
+    margin-top: 51px;
+  }
+  .footer__link{
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 14px;
+  }
+  .footer__link:last-child{
+    margin-right: 0;
+  }
+  .footer__rights{
+    margin-top: 43px;
+  }
 }

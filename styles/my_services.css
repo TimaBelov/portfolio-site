@@ -1,8 +1,12 @@
-.service_item {
+.service__item {
   margin-bottom: 40px;
 }
 
-.service_item_text {
+.service__item__image{
+  width: 100%;
+}
+
+.service__item__text {
   position: relative;
   height: 283px;
   display: flex;
@@ -27,4 +31,19 @@
 
 .service_item:last-child {
   margin-bottom: 150px;
+}
+
+@media (max-width:1199px){
+  .service__item__text{
+    height: 229px;
+
+    padding-left: 32px;
+    padding-top: 32px;
+  }
+  .service__item__description{
+    padding-right: 32px;
+  }
+  .service__item:last-child{
+    margin-bottom: 110px;
+  }
 }
