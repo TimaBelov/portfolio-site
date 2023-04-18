@@ -64,7 +64,6 @@
   .my_competencies__title {
     font-size: 45px;
     line-height: 58px;
-    word-break: break-all;
   }
   .competence__list {
     flex-direction: column;
@@ -78,5 +77,11 @@
   }
   .my_competencies__descr {
     width: 100%;
+  }
+}
+
+@media (max-width: 310px) {
+  .competence__title {
+    word-break: break-all;
   }
 }
