@@ -131,7 +131,7 @@
     font-size: 15px;
     line-height: 19px;
     margin-bottom: 15px;
-    width: calc(100% - 20px);
+    width: calc(100% - 20px - 10px);
     height: 38px;
     padding-left: 20px;
   }
