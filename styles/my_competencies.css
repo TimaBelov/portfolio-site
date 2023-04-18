@@ -28,7 +28,7 @@
   flex-grow: 1;
 }
 
-.competence__title__height{
+.competence__title__height {
   margin-bottom: 54px;
 }
 
@@ -53,6 +53,30 @@
   background-image: url(../resources/framework_ico.png);
 }
 
-.my_competencies__deskcr{
+.my_competencies__descr {
   width: 403px;
+}
+
+@media (max-width: 767px) {
+  .my_competencies {
+    margin-bottom: 60px;
+  }
+  .my_competencies__title {
+    font-size: 45px;
+    line-height: 58px;
+    word-break: break-all;
+  }
+  .competence__list {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .competence_item {
+    width: 100%;
+  }
+  .competence__title__height {
+    margin-bottom: 15px;
+  }
+  .my_competencies__descr {
+    width: 100%;
+  }
 }

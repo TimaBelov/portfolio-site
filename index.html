@@ -13,7 +13,7 @@
     <title>Белов Тимофей</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <section class="container">
         <div class="header__panel">
           <p class="header__logo">BELOV</p>
@@ -83,7 +83,7 @@
           >
         </section>
         <section class="my_competencies" id="competencies">
-          <h2>Мои компетенции</h2>
+          <h2 class="my_competencies__title">Мои компетенции</h2>
           <ul class="competence__list">
             <li class="competence_item">
               <h3 class="competence__title">HTML и CSS</h3>
@@ -129,14 +129,23 @@
               </p>
             </li>
           </ul>
-          <h3 class="my_competencies__deskcr">
+          <h3 class="my_competencies__descr">
             Помогаю реализовать широкий спект задач
           </h3>
         </section>
         <ul class="my_services" id="services">
           <li class="service__item">
-            <img src="resources/dev_site.png" alt="Скриншот сайта" 
-            class="service__item__image"/>
+            <picture>
+              <source
+                media="(max-width:500px)"
+                srcset="resources/dev_site_phone.png"
+              />
+              <img
+                src="resources/dev_site.png"
+                alt="Скриншот сайта"
+                class="service__item__image"
+              />
+            </picture>
             <div class="service__item__text">
               <h2 class="service__item__title">Разработка сайта под ключ</h2>
               <p class="service__item__description">
@@ -148,8 +157,17 @@
             </div>
           </li>
           <li class="service__item">
-            <img src="resources/layout_site.png" alt="Скриншот сайта" 
-            class="service__item__image"/>
+            <picture>
+              <source
+                media="(max-width:500px)"
+                srcset="resources/layout_site_phone.png"
+              />
+              <img
+                src="resources/layout_site.png"
+                alt="Скриншот сайта"
+                class="service__item__image"
+              />
+            </picture>
             <div class="service__item__text">
               <h2 class="service__item__title">Верстка сайтов</h2>
               <p class="service__item__description">
@@ -160,9 +178,17 @@
             </div>
           </li>
           <li class="service__item">
-            
-            <img src="resources/dev_mobile.png" alt="Скриншот сайта" 
-            class="service__item__image"/>
+            <picture>
+              <source
+                media="(max-width:500px)"
+                srcset="resources/dev_mobile_phone.png"
+              />
+              <img
+                src="resources/dev_mobile.png"
+                alt="Скриншот сайта"
+                class="service__item__image"
+              />
+            </picture>
             <div class="service__item__text">
               <h2 class="service__item__title">
                 Разработка мобильного интерфейса
@@ -180,8 +206,10 @@
       <section class="for_communication" id="contacts">
         <div class="communication__container">
           <picture>
-            <source media="(max-width:500px)" srcset="resources/programmer-tablet.png">
-            <source media="(max-width:1199px)" srcset="resources/programmer-tablet.png">
+            <source
+              media="(max-width:1199px)"
+              srcset="resources/programmer-tablet.png"
+            />
             <img
               src="resources/programmer.png"
               alt="Изображение программиста"
@@ -213,13 +241,10 @@
     </main>
     <footer class="footer">
       <div class="footer__info">
-        <div class="footer__item__text">
-          <p class="footer__title">
-            Портфолио фронтенд-разработчика Тимофея Белова
-          </p>
-          <p class="footer__description">Все права защищены. 2023</p>
-        </div>
-        <div class="footer__item__links">
+        <p class="footer__title">
+          Портфолио фронтенд-разработчика Тимофея Белова
+        </p>
+        <div class="footer__links">
           <a href="https://t.me/tttbba" target="_blank" class="footer__link"
             >telegram</a
           >
@@ -235,8 +260,11 @@
             class="footer__link"
             >instagram</a
           >
-          <p class="footer__rights">политика обработки данных</p>
         </div>
+      </div>
+      <div class="footer__necessary">
+        <p class="footer__description">Все права защищены. 2023</p>
+        <p class="footer__rights">политика обработки данных</p>
       </div>
     </footer>
   </body>
