@@ -101,7 +101,9 @@
               </p>
             </li>
             <li class="competence_item">
-              <h3 class="competence__title">Работа с библиотеками и фреймворками</h3>
+              <h3 class="competence__title competence__title__height">
+                Работа с библиотеками и фреймворками
+              </h3>
               <p>
                 фронтенд разработчики должны быть знакомы с различными
                 библиотеками и фреймворками, такими как React, Angular, Vue и
@@ -123,14 +125,16 @@
               </p>
             </li>
           </ul>
-          <h3>Помогаю реализовать широкий спект задач</h3>
+          <h3 class="my_competencies__deskcr">
+            Помогаю реализовать широкий спект задач
+          </h3>
         </section>
         <ul class="my_services" id="services">
           <li class="service_item">
             <img src="resources/dev_site.png" alt="Скриншот сайта" />
             <div class="service_item_text">
-              <h2>Разработка сайта под ключ</h2>
-              <p>
+              <h2 class="service__item__title">Разработка сайта под ключ</h2>
+              <p class="service__item__description">
                 Это создание дизайн веб-сайтов, созданный для удобства
                 пользователя и решения бизнес-задач Сайты должны быть понятными
                 и удобными, ведь чем понятнее сайт, тем быстрее пользователь
@@ -141,8 +145,8 @@
           <li class="service_item">
             <img src="resources/layout_site.png" alt="Скриншот сайта" />
             <div class="service_item_text">
-              <h2>Верстка сайтов</h2>
-              <p>
+              <h2 class="service__item__title">Верстка сайтов</h2>
+              <p class="service__item__description">
                 Это процесс создания HTML-документов и применения к ним стилей
                 на CSS. Фронтенд разработчик может помочь создать
                 привлекательный и удобный интерфейс для вашего сайта
@@ -152,8 +156,10 @@
           <li class="service_item">
             <img src="resources/dev_mobile.png" alt="Скриншот сайта" />
             <div class="service_item_text">
-              <h2>Разработка мобильного интерфейса</h2>
-              <p>
+              <h2 class="service__item__title">
+                Разработка мобильного интерфейса
+              </h2>
+              <p class="service__item__description">
                 Это процесс создания интерактивных элементов на странице с
                 помощью JavaScript. Фронтенд разработчик может помочь создать
                 динамический и удобный пользовательский интерфейс для вашего
@@ -164,25 +170,62 @@
         </ul>
       </section>
       <section class="for_communication" id="contacts">
-        <div class="communication_container">
-          <img src="resources/programmer.png" alt="Изображение программиста" />
-          <div class="communication_container_text">
-            <h3>для связи:</h3>
-            <a href="https://instagram.com/ttt.bba" target="_blank"
-              >instagram</a
-            >
-            <a href="https://t.me/tttbba" target="_blank">telegram</a>
-            <a href="mailto:timbe2017@yandex.ru" target="_blank">mail</a>
+        <div class="communication__container">
+          <img
+            src="resources/programmer.png"
+            alt="Изображение программиста"
+            class="communication__image"
+          />
+          <div class="communication__feedback">
+            <h3 class="communication__feedback__title">
+              Для связи со мной заполните простую форму
+            </h3>
+            <form class="communication__form">
+              <input
+                type="name"
+                name="name"
+                class="communication__input"
+                placeholder="Имя Фамилия"
+              />
+              <input
+                type="email"
+                name="email"
+                class="communication__input"
+                placeholder="example@mail.com"
+              />
+            </form>
+            <button class="communication__button">Отправить</button>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <section class="container">
-        <p>Портфолио фронтенд-разработчика Тимофея Белова</p>
-        <p>Все права защищены. 2023</p>
-      </section>
+    <footer class="footer">
+        <div class="footer__info">
+          <div class="footer__item__text">
+            <p class="footer__title">
+              Портфолио фронтенд-разработчика Тимофея Белова
+            </p>
+            <p class="footer__description">Все права защищены. 2023</p>
+          </div>
+          <div class="footer__item__links">
+            <a href="https://t.me/tttbba" target="_blank" class="footer__link"
+              >telegram</a
+            >
+            <a
+              href="mailto:timbe2017@yandex.ru"
+              target="_blank"
+              class="footer__link"
+              >mail</a
+            >
+            <a
+              href="https://instagram.com/ttt.bba"
+              target="_blank"
+              class="footer__link"
+              >instagram</a
+            >
+            <p class="footer__rights">политика обработки данных</p>
+          </div>
+        </div>
     </footer>
-    <script src="index.js"></script>
   </body>
 </html>

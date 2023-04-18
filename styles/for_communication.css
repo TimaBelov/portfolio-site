@@ -7,47 +7,64 @@
   margin-bottom: 150px;
 }
 
-.communication_container {
+.communication__container {
   width: 100%;
   height: inherit;
   position: relative;
 }
 
-.communication_container img {
+.communication__image {
   position: absolute;
   right: 0;
   border-radius: 30px;
   user-select: none;
 }
 
-.communication_container_text {
+.communication__feedback {
   position: absolute;
-  left: 125px;
-  bottom: 89px;
+  left: 122px;
+  top: 100px;
 }
 
-.communication_container_text h3 {
-  line-height: 60px;
-  color: white;
-  margin-bottom: 28px;
-}
+.communication__feedback__title {
+  width: 553px;
 
-.communication_container_text a {
-  text-decoration: none;
-  font-weight: 400;
   font-size: 60px;
   line-height: 60px;
   color: white;
-  margin-bottom: 20px;
-
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 60px;
 }
 
-.communication_container_text a:hover {
-  color: #1bff07;
+.communication__form{
+  margin-bottom: 60px;
 }
 
-.communication_container_text a:last-child {
-  margin-bottom: 0;
+.communication__input{
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  line-height: 28px;
+  color: #fff;
+
+  background-color: #3B3D3B;
+  width: 567px;
+  height: 60px;
+  padding-left: 40px;
+  border-radius: 1000px;
+  margin-bottom: 26px;
+}
+
+.communication__input::placeholder{
+  color: #fff;
+}
+
+.communication__button{
+  font-size: 22px;
+  line-height: 28px;
+  padding: 20px 162px;
+  background-color: #1BFF07;
+  border-radius: 10px;
+
+  border: none;
 }

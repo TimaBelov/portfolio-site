@@ -1,26 +1,28 @@
 .service_item {
-  margin-bottom: 74px;
-}
-
-.service_item:nth-child(2) {
-  margin-bottom: 137px;
+  margin-bottom: 40px;
 }
 
 .service_item_text {
+  position: relative;
+  height: 283px;
+  display: flex;
+  justify-content: space-between;
+
   padding-left: 40px;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 40px;
   border-radius: 30px;
   background-color: #191c19;
 }
 
-.service_item_text h2 {
+.service__item__title {
+  width: 40%;
   color: #1bff07;
   margin-bottom: 20px;
 }
 
-.service_item_text p {
-  width: 749px;
+.service__item__description {
+  position: absolute;
+  left: 50%;
 }
 
 .service_item:last-child {

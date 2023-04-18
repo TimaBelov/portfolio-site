@@ -7,11 +7,6 @@
   margin-bottom: 48px;
 }
 
-.my_competencies h3 {
-  width: 403px;
-  flex-grow: 100;
-}
-
 .competence__list {
   display: flex;
   flex-wrap: wrap;
@@ -26,10 +21,15 @@
   font-family: inherit;
 }
 
-.competence_item h3 {
+.competence__title {
   color: #1bff07;
   margin-bottom: 15px;
   width: 100%;
+  flex-grow: 1;
+}
+
+.competence__title__height{
+  margin-bottom: 54px;
 }
 
 .competence_item h3::before {
@@ -51,4 +51,8 @@
 }
 .competence_item:nth-child(4) h3::before {
   background-image: url(../resources/framework_ico.png);
+}
+
+.my_competencies__deskcr{
+  width: 403px;
 }
