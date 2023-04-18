@@ -59,7 +59,7 @@
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid #1bff07;
-
+  color: #000;
 }
 
 .projects__button:hover {
