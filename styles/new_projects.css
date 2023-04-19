@@ -32,6 +32,9 @@
 
 .projects__link:nth-child(3) .project__item {
   background-image: url(../resources/toptrip.png);
+}
+
+.projects__list{
   margin-bottom: 80px;
 }
 

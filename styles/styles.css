@@ -17,6 +17,7 @@ html {
 
 button {
   font-family: "IBM Plex Mono", sans-serif;
+  cursor: pointer;
 }
 
 h2 {
