@@ -81,7 +81,7 @@
 }
 
 @media (max-width: 310px) {
-  .competence__title {
+  .my_competencies__title {
     word-break: break-all;
   }
 }
