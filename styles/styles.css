@@ -11,6 +11,10 @@ html {
   background-color: black;
 }
 
+.body__fixed{
+  overflow: hidden;
+}
+
 button {
   font-family: "IBM Plex Mono", sans-serif;
 }
