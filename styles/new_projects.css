@@ -23,11 +23,11 @@
 }
 
 .projects__link:nth-child(1) .project__item {
-  background-image: url(../resources/metrica.png);
+  background-image: url(../resources/metrica.webp);
 }
 
 .projects__link:nth-child(2) .project__item {
-  background-image: url(../resources/nothing_ear.png);
+  background-image: url(../resources/nothing_ear.webp);
 }
 
 .projects__link:nth-child(3) .project__item {
